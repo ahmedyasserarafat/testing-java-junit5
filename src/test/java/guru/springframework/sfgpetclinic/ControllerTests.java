@@ -12,7 +12,7 @@ import org.junit.jupiter.api.TestInstance;
 public interface ControllerTests {
 
     @BeforeAll
-    default void beforeAll(){
+    default void beforeAllBaseClass(){
         System.out.println("Lets do something here");
     }
 }
